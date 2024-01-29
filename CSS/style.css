@@ -16,14 +16,12 @@ body{
 }
 
 .formulario{
-    width: 50%;
+    width: 40%;
     height: 90%;
     background-color: #FFFFFF;
-    margin-right: 35px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-content: center;
     padding: 33px;
 }
 
