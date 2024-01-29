@@ -3,9 +3,9 @@
 }
 
 body{
-    background-image: url(../images/bg-repeat.jpg);
-    width: 100%;
-    height: 100%;
+    background: url(../images/bg-repeat.jpg);
+    background-size: 100% 100%;
+    min-height: 100vh;
 }
 
 .container{
@@ -19,27 +19,36 @@ body{
     width: 50%;
     height: 90%;
     background-color: #FFFFFF;
-    margin-right: 15px;
+    margin-right: 35px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px;
+    align-content: center;
+    padding: 33px;
+}
+
+form{
+    height: 70%;
 }
 
 .formulario p{
-    margin-top: -10px;
-    font-size: 13px;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 18px;
 }
 
+
 .input{
-    padding: 10px;
+    border-radius: 10px;
+    padding: 25px;
     margin: 10px;
     width: 100%;
 }
 
+
 .campo-obrigatorio{
     display: none;
-    font-size: 7px;
+    font-size: 10px;
     color: #F52E2E;
     margin-top: -10px;
 }
@@ -62,7 +71,7 @@ body{
 .btn-enviar{
     width: 100%;
     margin: 10px;
-    padding: 10px;
+    padding: 15px;
     color: white;
     background-color: #00C22B;
     text-align: center;
@@ -70,7 +79,7 @@ body{
 }
 
 .descricao{
-    width: 50%;
+    width: 45%;
     color: white;
     padding: 15px;
     margin-left: 10px;
@@ -78,10 +87,13 @@ body{
 
 .descricao h1{
     font-weight: 900;
+    font-size: 45px;
 }
 
 
 .descricao p{
     margin-top: 20px;
     font-weight: 400;
+    font-size: 22px;
+    line-height: 2;
 }
