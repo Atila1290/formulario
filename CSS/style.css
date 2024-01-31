@@ -55,9 +55,6 @@ form{
     display: block;
 }
 
-.vazio{
-    border-color: #F52E2E;
-}
 
 
 .preenchido{
@@ -65,6 +62,9 @@ form{
 }
 
 
+.vazio{
+    border-color: #F52E2E;
+}
 
 .btn-enviar{
     width: 100%;

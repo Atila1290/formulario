@@ -16,6 +16,8 @@ function validarDados() {
             campos[i].classList.remove("vazio");
             campoObrigatorio[i].classList.remove("campo-vazio");
             campos[i].classList.add("preenchido");
+        } else {
+            campos[i].classList.remove("preenchido");
         }
     }
 }
